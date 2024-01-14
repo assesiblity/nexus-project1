@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Flavors</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <div class="search-container">
+            <input class="srch" type="search" name="" placeholder="Type To text">
+            <a href="#"><button class="btn">Search</button></a>
+        </div></div>
+        <p class="animated-text">The best food corner here.</p>
+
+        <form action="/login" method="get">
+        <div class="form">
+            <h2>Login Here</h2>
+       
+            <input type="email" id="email" placeholder="Enter Email Here" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required title="Enter a valid email address">
+            <span class="error" id="emailError" role="alert"></span><br>
+            <input type="password" id="password" placeholder="Enter password Here" minlength=".{6,}" required title="Password must be at least 6 characters">
+            <span class="error" id="passwordError" role="alert"></span><br>
+
+           
+            <button class="btnn"><a href="/submit">Login</a></button>
+        
+    
+
+<p class="link">Don't have an account? <br>
+    <label for="showSignup" class="signup-label">Sign up</label> here</p>
+ 
+ <input type="checkbox" id="showSignup" class="showSignup-checkbox">
+ <div class="signup-popup">
+     <label for="showSignup" class="close-btn">✖</label>
+     <!-- Signup form content -->
+     <h2>Sign Up Here</h2>
+     <input type="text" id="name" placeholder="Enter your name ">
+     <input type="email" id="signup-email" placeholder="Enter Email Here" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required title="Enter a valid email address">
+     <input type="password" id="signup-password" placeholder="Enter Password Here" minlength=".{6,}" required title="Password must be at least 6 characters">
+     <button  class="btnn"> <a href="/submit">Sign Up</a></button>
+ </div></form>
+ 
+
+ 
+                
+            <p class="liw">Log in with</p>
+            <div class="social-logos">
+                <a href="#"><img src="twitter-logo.jpg" alt="Twitter Logo"></a>
+                <a href="#"><img src="google-logo.jpg" alt="Google Logo"></a>
+                <a href="#"><img src="instagram-logo.jpg" alt="Instagram Logo"></a>
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
